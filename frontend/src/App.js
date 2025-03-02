@@ -17,7 +17,7 @@ function App() {
         setLoading(true);
         setPassword('');
         try {
-            const response = await axios.get(`http://localhost:5000/generate-password`, {
+            const response = await axios.get(`https://password-generator-backend-r640.onrender.com/generate-password`, {
                 params: {
                     length,
                     alphabets: includeAlphabets,
