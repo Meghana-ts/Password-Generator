@@ -1,25 +1,24 @@
 Assumptions and Solution Documentation for Password Generator Project
 
-Assumptions
-1. Project Structure Assumptions
+1. Project Structure
 The project consists of two main directories:
  frontend  (React.js - Frontend)
  backend   (Node.js/Express.js - Backend)
 The frontend is a React.js application for user interaction.
 The backend is a Node.js/Express.js API that generates passwords.
 
-2. Git and GitHub Assumptions
+2. Git and GitHub
 A GitHub repository named Password-Generator exists at:
  https://github.com/Meghana-ts/Password-Generator.git
 The repository was manually created without initializing it with a README or .gitignore (to avoid conflicts).
 The entire project is managed under a single Git repository, rather than separate repositories for frontend and backend.
 Git is installed and configured properly on the system.
 
-3. .gitignore Assumptions
+3. .gitignore 
 A single .gitignore file is present in the root directoryand applies to both frontend and backend.
 This ensures that sensitive or unnecessary files are not pushed to GitHub.
 
-4. Backend Assumptions
+4. Backend 
 The backend is a simple Express.js server running on port 5000.
 The API endpoint /generate-password:
 Accepts query parameters (length, alphabets, numbers, symbols).
@@ -29,7 +28,7 @@ The backend uses CORS middleware to allow frontend access.
 The dotenv package is used to manage environment variables.
 The server is started using:  node server.js
 
-5. Frontend Assumptions
+5. Frontend
 The frontend is a React.js application using:
 Axios for API requests.
 Framer Motion for animations.
@@ -44,7 +43,7 @@ Options for alphabets, numbers, and symbols.
 A copy-to-clipboard feature with animation.
 A visually appealing UI with responsiveness.
 
-7. Deployment Assumptions
+7. Deployment 
 Frontend Deployment: Hosted on Vercel or Netlify.
 Backend Deployment: Hosted on Render, ensuring the API is publicly accessible.
 Environment variables (.env file) are properly set up in deployment platforms.
