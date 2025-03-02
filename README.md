@@ -44,7 +44,7 @@ A copy-to-clipboard feature with animation.
 A visually appealing UI with responsiveness.
 
 7. Deployment 
-Frontend Deployment: Hosted on Vercel or Netlify.
+Frontend Deployment: Hosted on Netlify.
 Backend Deployment: Hosted on Render, ensuring the API is publicly accessible.
 Environment variables (.env file) are properly set up in deployment platforms.
 CORS is enabled on the backend for smooth frontend communication.
